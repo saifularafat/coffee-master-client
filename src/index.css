@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my_container {
+  @apply w-10/12 mx-auto
+}
+
+.default {
+  @apply px-3 py-2 text-xl text-white transition duration-200 tracking-wide
+}
+
+.active {
+  @apply px-3 py-2 rounded-lg text-white text-xl bg-[#854931] transition duration-200 tracking-wide
+}
+
+/* button style */
+.btn_one {
+  @apply bg-btn-first text-btn-text text-lg py-2 px-5 mt-2 border border-btn-first
+  font-medium font-rancho hover:bg-transparent hover:text-white transition duration-200 
+}
+.btn_two{
+  @apply text-white text-base bg-btn-first font-rancho font-medium border border-text-one py-2 px-7
+    rounded-lg
+}
+
+
+.product_text{
+  @apply font-raleway font-semibold text-xl text-text-one
+}
+.product_description{
+  @apply text-text-two font-raleway
+}
+.product_btn {
+  @apply w-9 h-9 rounded-lg p-2 mb-1
+}
+
+.fa_social {
+  @apply w-12 h-10 text-[#331A15] 
+}
+.sock_btn {
+  @apply py-2 px-6 rounded-3xl text-2xl border border-text-one
+   font-rancho font-medium tracking-wide
+}
+.addCoffee_btn_back {
+  @apply py-2 px-6 rounded-3xl text-2xl
+   font-rancho font-bold tracking-wide
+}
+.label_style {
+  @apply font-raleway font-semibold text-xl my-4
+}
+
+.addCoffee_btn {
+  @apply w-full mt-5 bg-btn-first rounded-lg py-3 text-xl 
+  font-semibold font-rancho tracking-wide
+}
