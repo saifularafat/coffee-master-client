@@ -1,5 +1,5 @@
 import footerbg from '../../../../assets/images/more/24.jpg'
-import Sock from './Sock' 
+import Sock from './Sock'
 
 const Footer = () => {
     return (
@@ -14,7 +14,11 @@ const Footer = () => {
                     backgroundSize: 'cover',
                     height: '',
                 }}>
-                <h2>Copyright ! All Rights @<span className="text-white text-2xl italic font-mono">saiful arafat</span></h2>
+                <h2>Copyright ! All Rights @
+                    <span className="text-white text-2xl italic font-mono">
+                        saiful arafat
+                    </span>
+                </h2>
             </div>
         </div>
     );

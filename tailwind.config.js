@@ -7,8 +7,7 @@ export default {
   theme: {
     fontFamily: {
       'rancho': ['Rancho', 'cursive'],
-      'raleway': ['Raleway', 'sans-serif'],
-      'mono': ['ui-monospace', 'SFMono-Regular']
+      'raleway': ['Raleway', 'sans-serif']
     },
     colors: {
       'white': '#ffffff',

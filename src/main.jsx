@@ -4,13 +4,11 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import router from './Router/router'
 import Main from './layout/Main.jsx'
-import { Toaster } from 'react-hot-toast'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}>
       <Main />
-      <Toaster />
     </RouterProvider>
   </React.StrictMode>,
 )

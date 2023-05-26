@@ -20,8 +20,8 @@
   font-medium font-rancho hover:bg-transparent hover:text-white transition duration-200 
 }
 .btn_two{
-  @apply text-white text-base bg-btn-first font-rancho font-medium border border-text-one py-2 px-7
-    rounded-lg
+  @apply text-white text-base bg-btn-first font-rancho font-semibold border border-text-one py-2 px-7
+    rounded-lg hover:bg-transparent hover:text-text-one  transition duration-200
 }
 
 
